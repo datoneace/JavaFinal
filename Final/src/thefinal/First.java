@@ -2,9 +2,14 @@ package thefinal;
 
 public class First {
 
-	public static void main(String[] args) {
+	public static void boy() {
 		// TODO Auto-generated method stub
 
+		Second.randomNumber();
+	}
+	static void displayThis()
+	{
+		
 	}
 
 }
