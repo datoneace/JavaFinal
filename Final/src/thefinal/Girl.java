@@ -21,23 +21,27 @@ public class Girl {
 		
 		if (choice == 1)
 		{
+			System.out.println("						");	
 			System.out.println("You quickly turn around full of fear. You begin to run as hard and as fast as you can. You look back to see you are not being followed. You saftly made it away.");	
 		}
 		if (choice == 2)
 		{
+			System.out.println("						");	
 			System.out.println("You try to attack the man, realizing that he is much bigger then you. You struggle to get him to the ground until he throws you off. There's no chance you win. You run away.  ");	
 		}
 		if (choice == 3)
 		{
+			System.out.println("						");	
 			System.out.println(" 'what is your name?' you yelled to him. 'where am I!' You stood waiting for a reply. He stood like a statue. He didnt say a word. You got scared, slowly turned around, and ran away. ");	
 		}
 		if (choice == 4)
 		{
+			System.out.println("						");	
 			System.out.println("You franticaly look around, looking for anything to protect yourself. You find a stick on the ground with a sharp end. You try to lunge at the man with it but he pushes you away effortlessly. You runaway in terror.");	
 		}
 	
-		System.out.println("						");	
-		System.out.println("You continued to run for what felt like an forever. You had to been running for at leaste an hour. You where miles form where you had been. You stopped, out of breath and kinda dizzy. You looked around to make sure the man was no where to be seen. You were safe. All you see is trees.");
+		System.out.println("You continued to run for what felt like an forever. You had to been running for at leaste an hour. You where miles form where you had been.");
+		System.out.println("You stopped, out of breath and kinda dizzy. You looked around to make sure the man was no where to be seen. You were safe. All you see is trees.");
 		System.out.println(" ' how big is this forrest' you thought to yourself. There was no sign of civilization anywhere. You begin to feel raindrops start to fall.  ");
 		System.out.println("						");	
 		System.out.println("What do you do: 1 for continue running, or 2 for stop and find shelter for the night. >>");	
@@ -45,13 +49,17 @@ public class Girl {
 		
 		if (choice == 1)
 		{
-			System.out.println("You continue running for about another hour. The rain is now pouring and your soaked. Your tired and beigning to feel dizzy. You try to continue pushing but you trip over a tree root and hit your head. Your knocked out.  ");		
+			System.out.println("						");	
+			System.out.println("You continue running for about another hour. The rain is now pouring and your soaked. Your tired and beigning to feel dizzy.");
+			System.out.println(" You try to continue pushing but you trip over a tree root and hit your head. Your knocked out.  ");		
 		}
 		if (choice == 2)
 		{
+			System.out.println("						");	
 			System.out.println("You can feel the rain starting to pick up. You find a heavy cluster of trees with overlapping leaves." );
 			System.out.println(" You go under them and lay down. The rain is barley hitting you because of all the leaves. Your exausted. The moment you closed your eyes you driffted asleep. ");	
 		}
+		
 	
 	}
 
