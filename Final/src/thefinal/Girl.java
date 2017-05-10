@@ -60,6 +60,10 @@ public class Girl {
 			System.out.println(" You go under them and lay down. The rain is barley hitting you because of all the leaves. Your exausted. The moment you closed your eyes you driffted asleep. ");	
 		}
 		
+		System.out.println("						");	
+		System.out.println(" You slowly feel yourself waking up. Your eyes are still shut but everything feels different. Its not wet and cold anymore. ");	
+		System.out.println(" It's warm and dry. You slowly open your eyes. Its so bright it takes a minute for your eyes to adjust. You see that your in a room. ");
+		System.out.println(" 'how did I get here?'");	
 	
 	}
 
