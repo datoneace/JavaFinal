@@ -63,7 +63,53 @@ public class Girl {
 		System.out.println("						");	
 		System.out.println(" You slowly feel yourself waking up. Your eyes are still shut but everything feels different. Its not wet and cold anymore. ");	
 		System.out.println(" It's warm and dry. You slowly open your eyes. Its so bright it takes a minute for your eyes to adjust. You see that your in a room. ");
-		System.out.println(" 'how did I get here?'");	
+		System.out.println(" 'how did I get here?' You ask yourself. The room is small, dull and empty. There are no windows. There is a door on the other side of the room. ");
+		System.out.println(" You go to it. You put your ear up to it, but hear nothing. You open the door and take a step out, only to see the woods. Its the woods you just came from. ");	
+		System.out.println("						");	
+		System.out.println(" What do you do: 1 to explore the woods or 2 to turn back around and go back to the room ");
+		choice = input.nextInt();
+		
+		if (choice == 1)
+		{
+			System.out.println("						");	
+		
+		}
+		if (choice == 2)
+		{
+			System.out.println("						");	
+			System.out.println(" The door is now shut and locked. You have no choice but to go into the woods.");	
+		}
+		
+		System.out.println("						");	
+		System.out.println(" You begin walking into the woods. You arent where you were when you fell asleep. You continue walking for about 5 more min.  ");	
+		System.out.println("You hear water flowing. It's like music to your ears. You take off running in the direction of the sound. You get to a stream. ");
+		System.out.println(" On the other side of the stream its just more woods. Then out of no where a girl comes out of the woods. She look like shes in her teen years.");
+		System.out.println(" She has long brown culy hair, and her face was full of fright, like she had seen something horrible. It was like she had been running away from something. ");
+		System.out.println("						");	
+		System.out.println("What do you do: 1 to run the other way, 2 to hide so she can't see you, or 3 to call out to her.");	
+		choice = input.nextInt();
+		
+		if(choice == 1)
+		{
+			System.out.println("						");	
+			System.out.println(" You take off in the other direction. 'what if she had seen the man?' Just as you round a corner around a tree, the man with no face is there. ");	
+			System.out.println(" He stands there almost 8 feet tall. You go to scream but he attacks you before you have the chance to. ");	
+		}
+		if(choice == 2)
+		{
+			System.out.println("						");	
+			System.out.println("You croutch behind a tree so she can't see you. You watch as the girl frantically looks around for a place to run but there is nowhere. ");	
+			System.out.println("she goes to scream but he attacks her before she has the chance to.");	
+		}
+		if(choice == 3)
+		{
+			System.out.println("						");	
+			System.out.println("You call out to her, but it's like she doesnt here you. You watch as the girl frantically looks around for a place to run but there is nowhere. ");	
+			System.out.println("she goes to scream but he attacks her before she has the chance to.");	
+		}
+		
+		System.out.println("						");	
+		
 	
 	}
 
