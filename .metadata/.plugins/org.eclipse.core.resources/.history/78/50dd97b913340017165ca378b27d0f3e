@@ -1,0 +1,33 @@
+package excersises;
+
+import java.util.Scanner;
+
+public class RightTriangle {
+	
+	public static void main(String[] args) 
+	{
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Which side do you want to solve? A, B, C");
+		String choice = input.nextLine();
+		
+		if("A".equals(choice))
+		{
+			
+		}
+		if("B".equals(choice))
+		{
+			
+		}
+		if("C".equals(choice))
+		{
+			sideC();
+		}
+	}
+	public static void sideC()
+	{
+		System.out.println("");
+		
+		
+	}
+}
