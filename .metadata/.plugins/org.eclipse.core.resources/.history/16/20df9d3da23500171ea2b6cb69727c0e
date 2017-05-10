@@ -1,5 +1,11 @@
 package thefinal;
+
+
 import java.util.Scanner;
+
+
+import java.util.Scanner;
+
 public class First {
 
 	// TODO Auto-generated method stub
@@ -8,7 +14,4 @@ public class First {
 	
 }
 
-
-
-
-	}
+}

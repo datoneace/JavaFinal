@@ -1,9 +1,10 @@
 package thefinal;
 import java.util.Scanner;
 public class Boy {
+
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		public static void boy() {
-		int choice;
+	int choice;
 	Scanner input = new Scanner(System.in); 
 	System.out.println("						");	
 	System.out.println(" You wake up in the middle of the woods, confused. It was just begining to get dark. It was silent."); 

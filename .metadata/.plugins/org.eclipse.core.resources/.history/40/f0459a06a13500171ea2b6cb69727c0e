@@ -1,6 +1,8 @@
 package thefinal;
 import java.util.Scanner;
 public class Boy {
+
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		public static void boy() {
 		int choice;
@@ -66,5 +68,5 @@ static void displayThis()
 { 
 		
 	}
-
+{}
 }

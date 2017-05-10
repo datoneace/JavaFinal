@@ -15,7 +15,7 @@ public class MainClass {
 		
 		if (choice == 1)
 		{
-			Boy.boy();
+			First.boy();
 		}
 		if (choice == 2)
 		{
