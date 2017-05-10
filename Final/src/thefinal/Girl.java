@@ -1,16 +1,12 @@
 package thefinal;
 
-
 import java.util.Scanner;
 
+public class Girl {
 
-import java.util.Scanner;
-
-public class First {
-
-	public static void boy() {
+	public static void girl() {
 		// TODO Auto-generated method stub
-Scanner input = new Scanner(System.in); 
+		Scanner input = new Scanner(System.in); 
 		
 		int choice;
 		
@@ -69,11 +65,7 @@ Scanner input = new Scanner(System.in);
 		System.out.println(" It's warm and dry. You slowly open your eyes. Its so bright it takes a minute for your eyes to adjust. You see that your in a room. ");
 		System.out.println(" 'how did I get here?'");	
 	
-	
 	}
-	static void displayThis()
-	{
-		
-	}
+
 
 }
