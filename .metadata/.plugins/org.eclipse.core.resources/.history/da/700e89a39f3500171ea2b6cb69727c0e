@@ -33,7 +33,7 @@ public class Boy {
 	if (choice == 4)
 	{
 		System.out.println("						");	
-		System.out.println("You franticaly look around, looking for anything to protect yourself. You find a stick on the ground with a sharp end. You try to lunge at the man with it but he punches you in the throat. You runaway in terror.");	
+		System.out.println("You franticaly look around, looking for anything to protect yourself. You find a stick on the ground with a sharp end. You try to lunge at the man with it but he pushes you away effortlessly. You runaway in terror.");	
 	}
 
 	System.out.println("You continued to run for what felt like an forever. You had to been running for at leaste an hour. You where miles form where you had been.");
