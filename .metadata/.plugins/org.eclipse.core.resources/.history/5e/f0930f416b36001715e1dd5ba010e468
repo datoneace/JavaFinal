@@ -1,0 +1,14 @@
+package thefinal;
+
+public class Shelter {
+
+	static void stayInShelter()
+	{
+		
+	}
+	
+	static void leaveShelter()
+	{
+		
+	}
+}
