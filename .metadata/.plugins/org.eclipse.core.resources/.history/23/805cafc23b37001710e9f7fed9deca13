@@ -8,7 +8,7 @@ public class Shelter {
 	static void stayInShelter()
 	{
 		String choiceYes = null;
-		int leave = 0;
+		String leave = null;
 		input = new Scanner(System.in);
 		do{
 		System.out.println(" 'You are really bored, but you see a pair of dice? Play Dice Yes or No'");
@@ -36,18 +36,11 @@ public class Shelter {
 		System.out.println("'Would you like to leave? Yes or No'");
 		}while("Yes".equals(leave));
 		leaveShelter();
-		leave = input.nextInt();
 	}
+	
 	static void leaveShelter()
 	{     
-		int choice = 0;
-		int hunt = 0;
-		int fire;
 		
-		System.out.println("'You realize you are very hungry, what do you want to do? Go hunt or make fire?'");
-		if(choice == hunt)
-		{
-			
-		}
+		
 	}
 }

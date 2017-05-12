@@ -38,12 +38,13 @@ public class Shelter {
 		leaveShelter();
 		leave = input.nextInt();
 	}
+	
 	static void leaveShelter()
 	{     
 		int choice = 0;
 		int hunt = 0;
 		int fire;
-		
+		{
 		System.out.println("'You realize you are very hungry, what do you want to do? Go hunt or make fire?'");
 		if(choice == hunt)
 		{

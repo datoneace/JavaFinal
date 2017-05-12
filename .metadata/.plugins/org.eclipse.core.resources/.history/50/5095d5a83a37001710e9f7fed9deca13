@@ -8,7 +8,8 @@ public class Shelter {
 	static void stayInShelter()
 	{
 		String choiceYes = null;
-		int leave = 0;
+		String leave= null;
+		String keepPlaying = null;
 		input = new Scanner(System.in);
 		do{
 		System.out.println(" 'You are really bored, but you see a pair of dice? Play Dice Yes or No'");
@@ -17,37 +18,38 @@ public class Shelter {
 		{
 			System.out.println("'You begin to play Farkle by yourself'");
 		     
-	           DiceGame dice = new DiceGame();  
+	           DiceGame dice = new DiceGame();  // Create the PairOfDice object.
 	           int rollCount = 0;
+	           
+	           /* Roll the dice until they come up snake eyes. */
+	           
 	           do {
 	               dice.roll();
 	               System.out.println("The dice come up " + dice.getDie1() 
 	                                                + " and " + dice.getDie2());
 	               rollCount++;
 	           } while (dice.getTotal() != 2);
-	        System.out.println("\nIt took " + rollCount + " rolls to get a 2.");
-	        System.out.println("'After a few rolls you finally win.'");
-	        System.out.println("'I should go outside'");
-		}
-		
-		
-		
-		else
+	           
+	           /* Report the number of rolls. */
+	           
+	           System.out.println("\nIt took " + rollCount + " rolls to get a 2.");
+	           //random number generator insert game here
+			//
+			//++counter;
+			System.out.println("'After a few rolls you finally win.'");
+			 
+		{
+		}}	
+			else
+			System.out.println("'I should go outside'");
 		System.out.println("'Would you like to leave? Yes or No'");
 		}while("Yes".equals(leave));
 		leaveShelter();
-		leave = input.nextInt();
+		
 	}
 	static void leaveShelter()
 	{     
-		int choice = 0;
-		int hunt = 0;
-		int fire;
 		
-		System.out.println("'You realize you are very hungry, what do you want to do? Go hunt or make fire?'");
-		if(choice == hunt)
-		{
-			
-		}
+		
 	}
 }
