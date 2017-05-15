@@ -23,7 +23,8 @@ public class DiceGame {
      System.out.println("Dice Two was " + die2);
      System.out.println("The total of the dice was " + total);
  }
-
 }
 	                 
 
+
+}

@@ -25,7 +25,7 @@ public class Shelter {
 	               rollCount++;
 	               System.out.println("To quit type Quit otherwise press play to play again.");
 	               quit = input.nextLine();
-	           } while ("Quit".equals(quit) ||"quit".equals(quit));
+	           } while ("Quit".equals(quit));
 	         
 	        System.out.println("'After " + rollCount +" a few rolls you finally win.'");
 	        System.out.println("'I should go outside'");

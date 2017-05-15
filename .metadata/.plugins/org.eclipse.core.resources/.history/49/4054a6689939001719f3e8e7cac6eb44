@@ -25,7 +25,7 @@ public class Shelter {
 	               rollCount++;
 	               System.out.println("To quit type Quit otherwise press play to play again.");
 	               quit = input.nextLine();
-	           } while ("Quit".equals(quit) ||"quit".equals(quit));
+	           } while ("Quit".equals(quit));
 	         
 	        System.out.println("'After " + rollCount +" a few rolls you finally win.'");
 	        System.out.println("'I should go outside'");
@@ -58,9 +58,9 @@ public class Shelter {
 				System.out.println("'You set up the trap and wait a few hours and check it. You got a rabbit!'");
 				
 			}
-			System.out.println("'You missed the rabbit. Maybe a trap would be better....Try again? Quit 999'");
+			System.out.println("'You missed the rabbit. Maybe a trap would be better....'");
 			tryAgain = input.nextInt();
-			}while(tryAgain != 999);
+			}while(tryAgain == 999);
 		
 		}
 		if(choice == 2)
