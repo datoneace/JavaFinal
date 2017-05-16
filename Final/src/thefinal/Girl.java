@@ -104,12 +104,59 @@ public class Girl {
 		if(choice == 3)
 		{
 			System.out.println("						");	
-			System.out.println("You call out to her, but it's like she doesnt here you. You watch as the girl frantically looks around for a place to run but there is nowhere. ");	
+			System.out.println("You call out to her, but it's like she doesn't here you. You watch as the girl frantically looks around for a place to run but there is nowhere. ");	
 			System.out.println("she goes to scream but he attacks her before she has the chance to.");	
 		}
 		
 		System.out.println("						");	
+		System.out.println(" You wake up to the sound of somebody screaming. It was all just a dream. The screaming is coming from the direction you came from. It's high pitched and filled with terror. It's close. ");
+		System.out.println("What do you do: 1 to investagate or 2 to Run the other way. ");	
+		choice = input.nextInt();
 		
+		if(choice == 1)
+		{
+			System.out.println("						");	
+			System.out.println(" You get up and begin going in the direction of the screams. You can tell they are getting closer. You pick up speed and begin to run.   ");
+			System.out.println(" The screams are so close. All of a sudden you get knocked down. The screams have know stopped. As you lay on the ground you roll over to see a girl.");	
+			System.out.println("It's the girl from your dream. She's knocked out from the collision . ");	
+			System.out.println("What do you do: 1 to help her, 2 to leave her, or 3 to kill her ");	
+			choice = input.nextInt();
+			
+			if (choice == 1)
+			{
+				System.out.println("						");	
+				System.out.println("You lean over her and try to shake her awake, it's not working. You begin to shake her frantically. She wakes up confused and scared. ");
+				System.out.println("'It's okay, I'm not gonna hurt you.' you said to her. You see her clam down and beign to relax. ' why were you running?' you ask her slowly.");	
+				System.out.println("'The man' she said ' the man with no face' " );	
+				System.out.println("You sit there for about 10 min talking about how you got here and what has happended to you so far. You choose not to tell her about your dream.");
+				System.out.println("She too woke up here not know how she got here. She told you that when she woke up she saw a house. You both decide to investagate the hosue. ");
+				System.out.println("When you get there it feels about noon. The house was small and looked abandoned.");
+				System.out.println("what do you do: 1 to go inside or 2 to leave");	
+				choice = input.nextInt();
+				
+				if (choice == 1)
+				{
+					System.out.println("						");	
+				}
+				if (choice == 2)
+				{
+					System.out.println("						");	
+					System.out.println("'this isnt a good idea' ");	
+				}
+			}
+			if (choice == 2)
+			{
+				
+			}
+			if (choice == 3)
+			{
+				
+			}
+		}
+		if (choice == 2)
+		{
+			
+		}
 	
 	}
 
