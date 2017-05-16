@@ -64,6 +64,16 @@ public class Girl {
 		System.out.println(" You slowly feel yourself waking up. Your eyes are still shut but everything feels different. Its not wet and cold anymore. ");	
 		System.out.println(" It's warm and dry. You slowly open your eyes. Its so bright it takes a minute for your eyes to adjust. You see that your in a room. ");
 		System.out.println(" 'how did I get here?'");	
+		System.out.println(" 'What should you do now, leave the shelter 1, stay in shelter 2'");
+		choice = input.nextInt();
+		if(choice== 1)
+		{
+			Shelter.leaveShelter();
+		}
+		if(choice == 2)
+		{
+			Shelter.stayInShelter();
+		}
 	
 	}
 

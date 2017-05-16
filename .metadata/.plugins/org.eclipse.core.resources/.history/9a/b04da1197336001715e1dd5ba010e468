@@ -1,0 +1,36 @@
+package thefinal;
+
+public class Shelter {
+
+	static void stayInShelter()
+	{
+		String choiceYes = null;
+		String leave= null;
+		
+		do{
+		System.out.println(" 'You are really bored, but you see a pair of dice? Play Dice Yes or No'");
+		if("Yes".equals(choiceYes))
+		{
+			System.out.println("'You begin to play Farkle by yourself'");
+			System.out.println("'After a few rolls you finally win. Keep playing? Yes or No'");
+		if("Yes".equals(choiceYes))
+		{
+			System.out.println("'You keep losing in Farkle. What now? Go outside 1 or keep playing 2'");
+			if("1".equals(leave))
+				leaveShelter();
+			}
+			
+			{
+		}
+		}
+		else
+			System.out.println("'Still bored?'");
+		System.out.println("'Would you like to leave?'");
+		}while("Yes".equals(leave));
+		leaveShelter();
+	
+	static void leaveShelter()
+	{
+		System.out.println("'You left the shelter, you realize you are very hungry. Explore 1 or find food 2'");
+	}
+}
