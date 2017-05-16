@@ -63,6 +63,7 @@ public class Girl {
 		System.out.println("						");	
 		System.out.println(" You slowly feel yourself waking up. Your eyes are still shut but everything feels different. Its not wet and cold anymore. ");	
 		System.out.println(" It's warm and dry. You slowly open your eyes. Its so bright it takes a minute for your eyes to adjust. You see that your in a room. ");
+
 		System.out.println(" 'how did I get here?' You ask yourself. The room is small, dull and empty. There are no windows. There is a door on the other side of the room. ");
 		System.out.println(" You go to it. You put your ear up to it, but hear nothing. You open the door and take a step out, only to see the woods. Its the woods you just came from. ");	
 		System.out.println("						");	
@@ -156,6 +157,18 @@ public class Girl {
 		if (choice == 2)
 		{
 			
+
+		System.out.println(" 'how did I get here?'");	
+		System.out.println(" 'What should you do now, leave the shelter 1, stay in shelter 2'");
+		choice = input.nextInt();
+		if(choice== 1)
+		{
+			Shelter.leaveShelter();
+		}
+		if(choice == 2)
+		{
+			Shelter.stayInShelter();
+
 		}
 	
 	}

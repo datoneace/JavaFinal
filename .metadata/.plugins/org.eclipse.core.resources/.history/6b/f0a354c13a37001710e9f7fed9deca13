@@ -1,0 +1,55 @@
+package thefinal;
+
+import java.util.Scanner;
+
+public class Shelter {
+
+	private static Scanner input;
+	static void stayInShelter()
+	{
+		String choiceYes = null;
+		String leave= null;
+		String keepPlaying = null;
+		input = new Scanner(System.in);
+		do{
+		System.out.println(" 'You are really bored, but you see a pair of dice? Play Dice Yes or No'");
+		choiceYes = input.nextLine();
+		if("Yes".equals(choiceYes))
+		{
+			System.out.println("'You begin to play Farkle by yourself'");
+		     
+	           DiceGame dice = new DiceGame();  // Create the PairOfDice object.
+	           int rollCount = 0;
+	           
+	           /* Roll the dice until they come up snake eyes. */
+	           
+	           do {
+	               dice.roll();
+	               System.out.println("The dice come up " + dice.getDie1() 
+	                                                + " and " + dice.getDie2());
+	               rollCount++;
+	           } while (dice.getTotal() != 2);
+	           
+	           /* Report the number of rolls. */
+	           
+	           System.out.println("\nIt took " + rollCount + " rolls to get a 2.");
+	           //random number generator insert game here
+			//
+			//++counter;
+			System.out.println("'After a few rolls you finally win.'");
+			 
+		{
+		}}	
+			else
+			System.out.println("'I should go outside'");
+		System.out.println("'Would you like to leave? Yes or No'");
+		}while("Yes".equals(leave));
+		leaveShelter();
+		
+	}
+	static void leaveShelter()
+	{     
+		System.out.println("'I should go outside'");
+		
+	}
+}
