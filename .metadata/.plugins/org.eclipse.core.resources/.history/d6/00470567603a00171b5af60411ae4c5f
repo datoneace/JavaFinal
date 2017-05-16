@@ -42,7 +42,7 @@ public class Shelter {
 		int hunt, random = 0;
 		int fire= 0;
 		int total = 0;
-		int tryAgain; 
+		int tryAgain;
 		System.out.println("'You realize you are very hungry, what do you want to do? Go hunt(1) or make fire(2)?'");
 		choice = input.nextInt();
 		if(choice == 1)
@@ -73,7 +73,7 @@ public class Shelter {
 	 public static void rollHunt(int total)
 	 {
 		 int die1, die2;
-		 die1  = (int)(Math.random()*6) + 1;
+		 die1 = (int)(Math.random()*6) + 1;
 	     die2 = (int)(Math.random()*6) + 1;
 	     total = die1 + die2;
 	     System.out.println(total);
