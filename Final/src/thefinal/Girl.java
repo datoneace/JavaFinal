@@ -63,6 +63,101 @@ public class Girl {
 		System.out.println("						");	
 		System.out.println(" You slowly feel yourself waking up. Your eyes are still shut but everything feels different. Its not wet and cold anymore. ");	
 		System.out.println(" It's warm and dry. You slowly open your eyes. Its so bright it takes a minute for your eyes to adjust. You see that your in a room. ");
+
+		System.out.println(" 'how did I get here?' You ask yourself. The room is small, dull and empty. There are no windows. There is a door on the other side of the room. ");
+		System.out.println(" You go to it. You put your ear up to it, but hear nothing. You open the door and take a step out, only to see the woods. Its the woods you just came from. ");	
+		System.out.println("						");	
+		System.out.println(" What do you do: 1 to explore the woods or 2 to turn back around and go back to the room ");
+		choice = input.nextInt();
+		
+		if (choice == 1)
+		{
+			System.out.println("						");	
+		
+		}
+		if (choice == 2)
+		{
+			System.out.println("						");	
+			System.out.println(" The door is now shut and locked. You have no choice but to go into the woods.");	
+		}
+		
+		System.out.println("						");	
+		System.out.println(" You begin walking into the woods. You arent where you were when you fell asleep. You continue walking for about 5 more min.  ");	
+		System.out.println("You hear water flowing. It's like music to your ears. You take off running in the direction of the sound. You get to a stream. ");
+		System.out.println(" On the other side of the stream its just more woods. Then out of no where a girl comes out of the woods. She look like shes in her teen years.");
+		System.out.println(" She has long brown culy hair, and her face was full of fright, like she had seen something horrible. It was like she had been running away from something. ");
+		System.out.println("						");	
+		System.out.println("What do you do: 1 to run the other way, 2 to hide so she can't see you, or 3 to call out to her.");	
+		choice = input.nextInt();
+		
+		if(choice == 1)
+		{
+			System.out.println("						");	
+			System.out.println(" You take off in the other direction. 'what if she had seen the man?' Just as you round a corner around a tree, the man with no face is there. ");	
+			System.out.println(" He stands there almost 8 feet tall. You go to scream but he attacks you before you have the chance to. ");	
+		}
+		if(choice == 2)
+		{
+			System.out.println("						");	
+			System.out.println("You croutch behind a tree so she can't see you. You watch as the girl frantically looks around for a place to run but there is nowhere. ");	
+			System.out.println("she goes to scream but he attacks her before she has the chance to.");	
+		}
+		if(choice == 3)
+		{
+			System.out.println("						");	
+			System.out.println("You call out to her, but it's like she doesn't here you. You watch as the girl frantically looks around for a place to run but there is nowhere. ");	
+			System.out.println("she goes to scream but he attacks her before she has the chance to.");	
+		}
+		
+		System.out.println("						");	
+		System.out.println(" You wake up to the sound of somebody screaming. It was all just a dream. The screaming is coming from the direction you came from. It's high pitched and filled with terror. It's close. ");
+		System.out.println("What do you do: 1 to investagate or 2 to Run the other way. ");	
+		choice = input.nextInt();
+		
+		if(choice == 1)
+		{
+			System.out.println("						");	
+			System.out.println(" You get up and begin going in the direction of the screams. You can tell they are getting closer. You pick up speed and begin to run.   ");
+			System.out.println(" The screams are so close. All of a sudden you get knocked down. The screams have know stopped. As you lay on the ground you roll over to see a girl.");	
+			System.out.println("It's the girl from your dream. She's knocked out from the collision . ");	
+			System.out.println("What do you do: 1 to help her, 2 to leave her, or 3 to kill her ");	
+			choice = input.nextInt();
+			
+			if (choice == 1)
+			{
+				System.out.println("						");	
+				System.out.println("You lean over her and try to shake her awake, it's not working. You begin to shake her frantically. She wakes up confused and scared. ");
+				System.out.println("'It's okay, I'm not gonna hurt you.' you said to her. You see her clam down and beign to relax. ' why were you running?' you ask her slowly.");	
+				System.out.println("'The man' she said ' the man with no face' " );	
+				System.out.println("You sit there for about 10 min talking about how you got here and what has happended to you so far. You choose not to tell her about your dream.");
+				System.out.println("She too woke up here not know how she got here. She told you that when she woke up she saw a house. You both decide to investagate the hosue. ");
+				System.out.println("When you get there it feels about noon. The house was small and looked abandoned.");
+				System.out.println("what do you do: 1 to go inside or 2 to leave");	
+				choice = input.nextInt();
+				
+				if (choice == 1)
+				{
+					System.out.println("						");	
+				}
+				if (choice == 2)
+				{
+					System.out.println("						");	
+					System.out.println("'this isnt a good idea' ");	
+				}
+			}
+			if (choice == 2)
+			{
+				
+			}
+			if (choice == 3)
+			{
+				
+			}
+		}
+		if (choice == 2)
+		{
+			
+
 		System.out.println(" 'how did I get here?'");	
 		System.out.println(" 'What should you do now, leave the shelter 1, stay in shelter 2'");
 		choice = input.nextInt();
@@ -73,6 +168,7 @@ public class Girl {
 		if(choice == 2)
 		{
 			Shelter.stayInShelter();
+
 		}
 	
 	}
