@@ -130,7 +130,7 @@ public class Girl {
 				System.out.println("'It's okay, I'm not gonna hurt you.' you said to her. You see her clam down and beign to relax. ' why were you running?' you ask her slowly.");	
 				System.out.println("'The man' she said ' the man with no face' " );	
 				System.out.println("You sit there for about 10 min talking about how you got here and what has happended to you so far. You choose not to tell her about your dream.");
-				System.out.println("She too woke up here not know how she got here. She told you that when she woke up she saw a house. You both decide to investagate the hosue. ");
+				System.out.println("She too woke up here not know how she got here. She said her name was Lexi. She told you that when she woke up she saw a house. You both decide to investagate the hosue. ");
 				System.out.println("When you get there it feels about noon. The house was small and looked abandoned.");
 				System.out.println("what do you do: 1 to go inside or 2 to leave");	
 				choice = input.nextInt();
@@ -138,40 +138,64 @@ public class Girl {
 				if (choice == 1)
 				{
 					System.out.println("						");	
+					System.out.println("You both looked at eachother with worry in your eyes. You then continued to walk to the house.");	
 				}
 				if (choice == 2)
 				{
 					System.out.println("						");	
-					System.out.println("'this isnt a good idea' ");	
+					System.out.println("'This isnt a good idea' you said to Lexi. She looked at you and rolled her eyes, as she continued toward the house.");	
+					System.out.println("Not wanting to be left alone you followed her.");	
+				}
+				
+				System.out.println("						");	
+				System.out.println(" You and lexi get to a door on the side of the house. You watch as she knocks. Nobody answered. She knocks again, this time a little louder.");	
+				System.out.println("She knocks again, this time a little louder. Again nobody answers. She grabs the door knob and slowly turns it. Her face lit up with excitment as it opens.");	
+				System.out.println("You walk into a dusty, unclean house. You pull a string on a lamp and it lights up the room. 'A place like this having power is suprising.' Lexi says.");	
+				System.out.println("You look at her with a small grin and continue to look around. The house was tiny consisting of only 2 rooms, a main room and a bathroom on the corner.");
+				System.out.println("As dirty as it was you could tell someone had been here recently. There was a candle still burning in the middle of the dinning table. ");
+				System.out.println("Lexi opens the fridge and pulls out two apple and a bottle of water. She throws you one and opens the water. You guys share your meal as you continue to look around.");	
+				System.out.println("As you get to a desk you look up at the wall and see many newspapers and hand written notes. You call lexi over so she can read them too.");	
+				System.out.println("'they're about the man in the woods' says Lexi. She was right. It was all about how people had seen him and about people who had went missing. ");	
+				System.out.println("Both of you stand there reading about the people that have disapeared in these woods and the others who have went crazy. Then you here something move outside.  ");
+				System.out.println("What do you do: 1 to hide or 2 to go outside. ");
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					
+				}
+				if (choice == 2)
+				{
+					
 				}
 			}
 			if (choice == 2)
 			{
-				
+				System.out.println("						");	
+				System.out.println("You stand there for a moment. You here the girl groan and she starts to move. You quickly take off running and leave her behind.");	
+				System.out.println("You run for what feels like forever but probably was only like 15 min. You finaly stop when you some to a small hosue. ");
+				System.out.println("What do you do: 1 to go in or 2 to leave");	
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You took a deep breath with worry . You then continued to walk to the house.");
+				}
+				if (choice == 2)
+				{
+					System.out.println("						");	
+					System.out.println("You turned around to leave until you heard something in the woods. You got scared and quckly turned around and headed for the house.");	
+					
+				}
 			}
 			if (choice == 3)
 			{
-				
+				System.out.println("						");	
 			}
 		}
 		if (choice == 2)
 		{
-			
-
-		System.out.println(" 'how did I get here?'");	
-		System.out.println(" 'What should you do now, leave the shelter 1, stay in shelter 2'");
-		choice = input.nextInt();
-		if(choice== 1)
-		{
-			Shelter.leaveShelter();
 		}
-		if(choice == 2)
-		{
-			Shelter.stayInShelter();
-
-		}
-	
 	}
-
+	
 
 }
