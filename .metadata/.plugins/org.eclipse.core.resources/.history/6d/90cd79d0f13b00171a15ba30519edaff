@@ -23,7 +23,6 @@ public class Boy {
 	{
 		System.out.println("						");	
 		System.out.println("You try to attack the man, realizing that he is much bigger then you. You struggle to get him to the ground until he throws you off. There's no chance you win. You run away.  ");	
-		Fight.displayFight();
 	}
 	if (choice == 3)
 	{
