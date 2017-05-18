@@ -149,7 +149,7 @@ public class Girl {
 				
 				System.out.println("						");	
 				System.out.println(" You and lexi get to a door on the side of the house. You watch as she knocks. Nobody answered. She knocks again, this time a little louder.");	
-				System.out.println("She knocks again, this time a little louder. Again nobody answers. She grabs the door knob and slowly turns it. Her face lit up with excitment as it opens.");	
+				System.out.println(" Again nobody answers. She grabs the door knob and slowly turns it. Her face lit up with excitment as it opens.");	
 				System.out.println("You walk into a dusty, unclean house. You pull a string on a lamp and it lights up the room. 'A place like this having power is suprising.' Lexi says.");	
 				System.out.println("You look at her with a small grin and continue to look around. The house was tiny consisting of only 2 rooms, a main room and a bathroom on the corner.");
 				System.out.println("As dirty as it was you could tell someone had been here recently. There was a candle still burning in the middle of the dinning table. ");
@@ -183,9 +183,20 @@ public class Girl {
 				if (choice == 2)
 				{
 					System.out.println("						");	
-					System.out.println("You turned around to leave until you heard something in the woods. You got scared and quckly turned around and headed for the house.");	
+					System.out.println("You turned around to leave until you heard something in the woods. You got scared and quickly turned around ,and headed for the house.");	
 					
 				}
+				System.out.println("						");	
+				System.out.println(" You get to a door on the side of the house. You knock. Nobody answered. You knock again, this time a little louder.");	
+				System.out.println(" Again nobody answers. You grab the door knob and slowly turn it. Your face lit up with excitment as it opens.");	
+				System.out.println("You walk into a dusty, unclean house. You pull a string on a lamp and it lights up the room. 'A place like this having power is suprising.' You think to yourself.");	
+				System.out.println("You look at around with a small grin and continue to investigate. The house was tiny consisting of only 2 rooms, a main room and a bathroom on the corner.");
+				System.out.println("As dirty as it was you could tell someone had been here recently. There was a candle still burning in the middle of the dinning table. ");
+				System.out.println("Lexi opens the fridge and pulls out two apple and a bottle of water. She throws you one and opens the water. You guys share your meal as you continue to look around.");	
+				System.out.println("As you get to a desk you look up at the wall and see many newspapers and hand written notes. You call lexi over so she can read them too.");	
+				System.out.println("'they're about the man in the woods' says Lexi. She was right. It was all about how people had seen him and about people who had went missing. ");	
+				System.out.println("Both of you stand there reading about the people that have disapeared in these woods and the others who have went crazy. Then you here something move outside.  ");
+				System.out.println("What do you do: 1 to hide or 2 to go outside. ");
 			}
 			if (choice == 3)
 			{
