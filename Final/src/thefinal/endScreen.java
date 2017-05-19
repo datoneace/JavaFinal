@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class endScreen {
 
-	public static void main(String[] args) {
+	public static void End() {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in); 
 		
@@ -21,7 +21,7 @@ public class endScreen {
 		choice = input.nextInt();
 		if ( choice == 1)
 		{
-			MainClass.main(args);
+			MainClass.Start();
 		}
 		if ( choice == 2)
 		{
@@ -37,4 +37,9 @@ public class endScreen {
 		
 	}
 
-}
+
+		// TODO Auto-generated method stub
+		
+	}
+
+
