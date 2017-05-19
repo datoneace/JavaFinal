@@ -108,7 +108,7 @@ public class Shelter {
 				} 
 				System.out.println("'Try again? Quit 999'");
 				tryAgain = input.nextInt();
-				}while(tryAgain != 999);																																	
+				}while(tryAgain != 999);
 			
 		}
 	

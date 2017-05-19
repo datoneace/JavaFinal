@@ -64,8 +64,6 @@ public class Shelter {
 			{
 				System.out.println("'You set up the trap and wait, then you see one. You got a rabbit! MMMMmhhh'");
 				missedCount = 0;
-				System.out.println("'Now I need a fire to cook this on'");
-				
 				
 			}
 			
@@ -86,7 +84,7 @@ public class Shelter {
 		if(choice2 == 2)
 		{
 			do{
-				System.out.println("'You start rubbing sticks together. Pick a number between 1 and 12 to see if you have a flame.'");
+				System.out.println("'You go out to get sticks for the fire. Pick a number between 1 and 12 to see if you have a flame.'");
 				fire = input.nextInt();
 				if(fire == total)
 				{
@@ -96,7 +94,9 @@ public class Shelter {
 					//create a random number generator to see if you can create a fire.
 					SlenderManAppears.choice();
 					missedCount = 0;
+					
 				}
+				
 				missedCount++;
 				System.out.println("You could not get a flame " + missedCount + " times if you get to 5 you die of starvation.");
 				if(missedCount == 5)
@@ -108,7 +108,7 @@ public class Shelter {
 				} 
 				System.out.println("'Try again? Quit 999'");
 				tryAgain = input.nextInt();
-				}while(tryAgain != 999);																																	
+				}while(tryAgain != 999);
 			
 		}
 	

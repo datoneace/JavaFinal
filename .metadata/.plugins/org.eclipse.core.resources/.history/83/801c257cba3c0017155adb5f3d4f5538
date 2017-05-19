@@ -66,7 +66,6 @@ public class Shelter {
 				missedCount = 0;
 				System.out.println("'Now I need a fire to cook this on'");
 				
-				
 			}
 			
 			missedCount++;
@@ -108,7 +107,7 @@ public class Shelter {
 				} 
 				System.out.println("'Try again? Quit 999'");
 				tryAgain = input.nextInt();
-				}while(tryAgain != 999);																																	
+				}while(tryAgain != 999);
 			
 		}
 	
