@@ -21,7 +21,7 @@ public class endScreen {
 		choice = input.nextInt();
 		if ( choice == 1)
 		{
-			MainClass.Main();
+			MainClass.main(args);
 		}
 		if ( choice == 2)
 		{
