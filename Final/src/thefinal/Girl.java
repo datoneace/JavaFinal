@@ -206,8 +206,26 @@ public class Girl {
 					System.out.println("' I'm sorry for scarring you' he said with a smile. 'My names Paul.'");
 				}
 				System.out.println("	");	
-				System.out.println("");	
-				
+				System.out.println("* One Hour Later *");	
+				System.out.println("You all sit in the living room of the small house talking about the man with no face. Paul had turned on the radio he had. For the first time in what felt like forever you felt safe.");
+				System.out.println("Paul told you about the articles on the wall. He was in the woods looking for evidence about the man with no face. ' people call him Slenderman' Paul had said. ");
+				System.out.println("Pauls whole goal was to get a picture of Slenderman, and figure out what he did to the other people in the forrest. Most people said that they woke up in the forrest. ");
+				System.out.println("Paul wanted to how they got here. The few people that got out of the forrest said they still saw him. It was like he was haunting them. All of a sudden the music began to mess up.");
+				System.out.println("The radio started making a loud fuzzy sound. 'He's here!' paul said jumping out of his chair and grabbing is camera. You and lexi both went to say something when he shushed you.");
+				System.out.println(" Paul quickly ran outside leaving the door open behind him. You and lexi both quickly ran and stood in the doorway. You watched as paul stood in front of the house with his camera ready.");
+				System.out.println("'Come Out! show Yourself!' He yelled. On que Slenderman stepped out of the woods. Paul pressed the button on his camera and the flash went off. At that moment Slenderman attacked Paul.");
+				System.out.println("What do you do: 1 to Save Paul or 2 to Let him die");	
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You look at lexi, her face full of sorrow and almost in tears. 'We can't just let him die!' You say to lexi. You don't wait for a responce before you run out to Paul.");
+				}
+				if (choice == 2)
+				{
+					System.out.println("						");	
+					System.out.println("");	
+				}
 			}
 			if (choice == 2)
 			{
