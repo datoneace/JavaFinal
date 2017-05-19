@@ -4,7 +4,7 @@ public class SlenderManAppears {
 
 	public static void choice(){
 		
-		System.out.println("Works! NOW!");
-		Boy.boy();
+		System.out.println("");
+		
 	}
 }
