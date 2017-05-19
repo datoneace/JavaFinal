@@ -92,7 +92,7 @@ public class Shelter {
 				{
 					System.out.println("' x '");
 					System.out.println("'xxx'");
-					System.out.println("Nice fire FOLKZZZZZ!");
+					System.out.println("Nice fire dude!");
 					//create a random number generator to see if you can create a fire.
 					SlenderManAppears.choice();
 					missedCount = 0;
