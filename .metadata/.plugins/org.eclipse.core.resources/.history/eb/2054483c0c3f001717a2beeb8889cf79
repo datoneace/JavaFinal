@@ -50,27 +50,55 @@ public class Shelter {
 		 die1  = (int)(Math.random()*6) + 1;
 	     die2 = (int)(Math.random()*6) + 1;
 	     total = die1 + die2;
-	    do{ 
+	     
 		System.out.println("You realize you are very hungry, what do you want to do? Go hunt(1) or make fire(2)?");
 		choice2 = input.nextInt();
-			if(choice2 == 1)
+		if(choice2 == 1)
+		{
+			System.out.println("'You find a stick and sharpen it. You see a rabbit and throw your spear thingy.'");
+			//random number generator
+			do{
+			System.out.println("Pick a number between 1 and 12 to see if you hit.");
+			hunt = input.nextInt();
+			if(hunt == total)
 			{
-				System.out.println("'You find a stick and sharpen it. You see a rabbit and throw your spear thingy.'");
-				//random number generator
-			
-				System.out.println("Pick a number between 1 and 12 to see if you hit.");
-				hunt = input.nextInt();
-				if(hunt == total)
-				{
-					System.out.println("'You set up the trap and wait, then you see one. You got a rabbit! MMMMmhhh'");
-					missedCount = 0;
-					System.out.println("'Now I need a fire to cook this on'");
-					
-					
-				}
+				System.out.println("'You set up the trap and wait, then you see one. You got a rabbit! MMMMmhhh'");
+				missedCount = 0;
+				System.out.println("'Now I need a fire to cook this on'");
 				
+				
+			}
+			
+			missedCount++;
+			System.out.println("You have missed the rabbit " + missedCount + " times if you get to 5 you die of starvation.");
+			if(missedCount == 5)
+			{
+				System.out.println("You have starved to death. Good luck next time.");
+				GameOver.displayOver();
+				MainClass.main(null);
+				
+			} 
+			System.out.println("'Try again? Quit 999'");
+			tryAgain = input.nextInt();
+			}while(tryAgain != 999);
+			SlenderManAppears.choice();
+		}
+		if(choice2 == 2)
+		{
+			do{
+				System.out.println("'You start rubbing sticks together. Pick a number between 1 and 12 to see if you have a flame.'");
+				fire = input.nextInt();
+				if(fire == total)
+				{
+					System.out.println("' x '");
+					System.out.println("'xxx'");
+					System.out.println("Nice fire FOLKZZZZZ!");
+					//create a random number generator to see if you can create a fire.
+					SlenderManAppears.choice();
+					missedCount = 0;
+				}
 				missedCount++;
-				System.out.println("You have missed the rabbit " + missedCount + " times if you get to 5 you die of starvation.");
+				System.out.println("You could not get a flame " + missedCount + " times if you get to 5 you die of starvation.");
 				if(missedCount == 5)
 				{
 					System.out.println("You have starved to death. Good luck next time.");
@@ -78,39 +106,11 @@ public class Shelter {
 					MainClass.main(null);
 					
 				} 
-				
-				
-			}
-		
-			if(choice2 == 2)
-			{
-	
-					System.out.println("'You start rubbing sticks together. Pick a number between 1 and 12 to see if you have a flame.'");
-					fire = input.nextInt();
-					if(fire == total)
-					{
-						System.out.println("' x '");
-						System.out.println("'xxx'");
-						System.out.println("Nice fire FOLKZZZZZ!");
-						//create a random number generator to see if you can create a fire.
-						System.out.println("You live happily ever after the end.");
-						GameOver.displayOver();
-						missedCount = 0;
-					}
-					missedCount++;
-					System.out.println("You could not get a flame " + missedCount + " times if you get to 5 you die of starvation.");
-					if(missedCount == 5)
-					{
-						System.out.println("You have starved to death. Good luck next time.");
-						GameOver.displayOver();
-						MainClass.main(null);
-						
-					} 																															
-			}
-		System.out.println("'Try again? Quit 999. Any other number to move on.'");
-		tryAgain = input.nextInt();
-		}while(tryAgain == 999);
-	    SlenderManAppears.choice();
+				System.out.println("'Try again? Quit 999'");
+				tryAgain = input.nextInt();
+				}while(tryAgain != 999);																																	
+			
+		}
 	
 	}
 	 

@@ -93,8 +93,7 @@ public class Shelter {
 						System.out.println("'xxx'");
 						System.out.println("Nice fire FOLKZZZZZ!");
 						//create a random number generator to see if you can create a fire.
-						System.out.println("You live happily ever after the end.");
-						GameOver.displayOver();
+						SlenderManAppears.choice();
 						missedCount = 0;
 					}
 					missedCount++;
@@ -107,9 +106,9 @@ public class Shelter {
 						
 					} 																															
 			}
-		System.out.println("'Try again? Quit 999. Any other number to move on.'");
+		System.out.println("'Try again? Quit 999.'");
 		tryAgain = input.nextInt();
-		}while(tryAgain == 999);
+		}while(tryAgain == 999 || choice2 == 2);
 	    SlenderManAppears.choice();
 	
 	}
