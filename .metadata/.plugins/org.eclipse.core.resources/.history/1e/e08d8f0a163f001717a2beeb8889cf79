@@ -62,21 +62,16 @@ public class Boy {
 			System.out.println(" It's warm and dry. You slowly open your eyes. Its so bright it takes a minute for your eyes to adjust. You see that your in a room. ");
 			System.out.println(" 'how did I get here?'");
 			System.out.println(" 'What should you do now, leave the shelter 1, stay in shelter 2'");
-			int choiceShelter = input.nextInt();
 			{
-			if(choiceShelter == 1)
-			{
-			leaveShelter();
-			}
-			
+			int choiceShelter = 0;
 			if(choiceShelter == 2)
 			{
 				Shelter.stayInShelter();
-			}	
-		}}
-		static void leaveShelter()
-		{
-			
+			}
+		}
+		static void leaveShelter(){
+			{
+			}
 			int choice2;
 			int hunt;
 			int fire= 0;

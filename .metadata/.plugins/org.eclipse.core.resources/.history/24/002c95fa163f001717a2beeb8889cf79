@@ -1,9 +1,9 @@
 package thefinal;
 import java.util.Scanner;
-public class Boy {
+public class Girl{
 		private static Scanner input;
 		// TODO Auto-generated method stub
-		public static void boy() 
+		public static void girl() 
 		{
 				int choice;
 			input = new Scanner(System.in); 
@@ -63,20 +63,14 @@ public class Boy {
 			System.out.println(" 'how did I get here?'");
 			System.out.println(" 'What should you do now, leave the shelter 1, stay in shelter 2'");
 			int choiceShelter = input.nextInt();
-			{
-			if(choiceShelter == 1)
-			{
-			leaveShelter();
-			}
-			
 			if(choiceShelter == 2)
 			{
 				Shelter.stayInShelter();
-			}	
-		}}
-		static void leaveShelter()
-		{
-			
+			}
+		}
+		static void leaveShelter(){
+			{
+			}
 			int choice2;
 			int hunt;
 			int fire= 0;

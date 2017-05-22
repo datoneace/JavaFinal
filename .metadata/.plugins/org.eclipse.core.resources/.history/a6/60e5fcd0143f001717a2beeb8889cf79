@@ -12,7 +12,7 @@ public class Shelter {
 		String quit = null;
 		
 		input = new Scanner(System.in);
-
+		do{
 		System.out.println(" 'You are really bored, but you see a pair of dice? Play Dice Yes or No'");
 		choiceYes = input.nextLine();
 		if("Yes".equals(choiceYes))
@@ -26,10 +26,10 @@ public class Shelter {
 	               System.out.println("To quit type No otherwise type Yes to play again.");
 	               quit = input.nextLine();
 	           }while ("Yes".equals(quit) ||"yes".equals(quit));
-	          
+	            
 	        System.out.println("'After " + rollCount +" rolls you finally are bored and want to move on.'");
 	        System.out.println("'I should go outside'");
-	        Boy.leaveShelter();
 		}
 	
 		}		
+}

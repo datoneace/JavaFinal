@@ -29,7 +29,6 @@ public class Shelter {
 	          
 	        System.out.println("'After " + rollCount +" rolls you finally are bored and want to move on.'");
 	        System.out.println("'I should go outside'");
-	        Boy.leaveShelter();
 		}
 	
 		}		

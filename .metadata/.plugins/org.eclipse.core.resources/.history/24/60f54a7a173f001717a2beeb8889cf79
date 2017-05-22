@@ -66,14 +66,14 @@ public class Boy {
 			{
 			if(choiceShelter == 1)
 			{
-			leaveShelter();
+			
 			}
 			
 			if(choiceShelter == 2)
 			{
 				Shelter.stayInShelter();
 			}	
-		}}
+		}
 		static void leaveShelter()
 		{
 			
