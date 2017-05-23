@@ -83,7 +83,7 @@ public class Girl {
 			int total = 0;
 			int tryAgain;
 			int missedCount = 0;
-			
+			int missedCount2 = 0;
 			 int die1, die2;
 			 die1  = (int)(Math.random()*6) + 1;
 		     die2 = (int)(Math.random()*6) + 1;
@@ -133,11 +133,11 @@ public class Girl {
 							//create a random number generator to see if you can create a fire.
 							System.out.println("You live happily ever after the end.");
 							GameOver.displayOver();
-							missedCount = 0;
+							
 						}
-						missedCount++;
-						System.out.println("You could not get a flame " + missedCount + " times if you get to 5 you die of starvation.");
-						if(missedCount == 5)
+						missedCount2++;
+						System.out.println("You could not get a flame " + missedCount2 + " times if you get to 5 you die of starvation.");
+						if(missedCount2 == 5)
 						{
 							System.out.println("You have starved to death. Good luck next time.");
 							GameOver.displayOver();

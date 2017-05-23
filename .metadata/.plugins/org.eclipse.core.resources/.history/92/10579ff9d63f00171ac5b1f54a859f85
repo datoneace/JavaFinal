@@ -6,7 +6,6 @@ public class SlenderManAppears {
 		
 		System.out.println("Hahahahaha Slender MAN appears and kills you");
 		GameOver.displayOver();
-		MainClass.main(null);
 		
 	}
 }
