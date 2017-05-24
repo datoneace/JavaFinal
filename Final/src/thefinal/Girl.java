@@ -228,7 +228,21 @@ public class Girl {
 				if (choice == 2)
 				{
 					System.out.println("						");	
-					System.out.println("");	
+					System.out.println("You quickly run grab lexis arm and take off running. You run as fast as you can. The screams of paul are getting quieter and quieter. You come to a road. A car is coming down it.");	
+					System.out.println("what do you do: 1 to jump infront or 2 to put thumb out.");	
+					choice = input.nextInt();
+					if(choice == 1)
+					{
+						System.out.println("						");	
+						System.out.println("They Hit you both. You're dead");	
+						endScreen.End();
+					}
+					if(choice == 2)
+					{
+						System.out.println("						");	
+						System.out.println("They didn't see you. Slenderman comes out of the woods behind you. You take a deep breath and you feel a tear trickle down your face.");	
+						endScreen.End();
+					}
 				}
 			}
 			if (choice == 2)
@@ -327,7 +341,21 @@ public class Girl {
 				if (choice == 2)
 				{
 					System.out.println("						");	
-					System.out.println("");	
+					System.out.println("You quickly take off running. You run as fast as you can. The screams of paul are getting quieter and quieter. You come to a road. A car is coming down it.");	
+					System.out.println("what do you do: 1 to jump infront or 2 to put thumb out.");	
+					choice = input.nextInt();
+					if(choice == 1)
+					{
+						System.out.println("						");	
+						System.out.println("They Hit you. You're dead");	
+						endScreen.End();
+					}
+					if(choice == 2)
+					{
+						System.out.println("						");	
+						System.out.println("They didn't see you. Slenderman comes out of the woods behind you. You take a deep breath and you feel a tear trickle down your face.");	
+						endScreen.End();
+					}
 				}
 			}
 			if (choice == 3)
@@ -426,14 +454,45 @@ public class Girl {
 				}
 				if (choice == 2)
 				{
+
 					System.out.println("						");	
-					System.out.println("");	
+					System.out.println("You quickly take off running. You run as fast as you can. The screams of paul are getting quieter and quieter. You come to a road. A car is coming down it.");	
+					System.out.println("what do you do: 1 to jump infront or 2 to put thumb out.");	
+					choice = input.nextInt();
+					if(choice == 1)
+					{
+						System.out.println("						");	
+						System.out.println("They Hit you. You're dead");	
+						endScreen.End();
+					}
+					if(choice == 2)
+					{
+						System.out.println("						");	
+						System.out.println("They didn't see you. Slenderman comes out of the woods behind you. You take a deep breath and you feel a tear trickle down your face.");	
+						endScreen.End();
+					}
 				}
 			}
 			
 		}
 		if (choice == 2)
 		{
+			System.out.println("						");	
+			System.out.println("You quickly take off running. You run as fast as you can. The screams are getting quieter and quieter. You come to a road. A car is coming down it.");	
+			System.out.println("what do you do: 1 to jump infront or 2 to put thumb out.");	
+			choice = input.nextInt();
+			if(choice == 1)
+			{
+				System.out.println("						");	
+				System.out.println("They Hit you. You're dead");	
+				endScreen.End();
+			}
+			if(choice == 2)
+			{
+				System.out.println("						");	
+				System.out.println("They didn't see you. The man with no face comes out of the woods behind you. You take a deep breath and you feel a tear trickle down your face.");	
+				endScreen.End();
+			}
 		}
 	}
 	
