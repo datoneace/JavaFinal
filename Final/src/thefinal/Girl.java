@@ -151,7 +151,7 @@ public class Girl {
 				System.out.println(" You and lexi get to a door on the side of the house. You watch as she knocks. Nobody answered. She knocks again, this time a little louder.");	
 				System.out.println(" Again nobody answers. She grabs the door knob and slowly turns it. Her face lit up with excitment as it opens.");	
 				System.out.println("You walk into a dusty, unclean house. You pull a string on a lamp and it lights up the room. 'A place like this having power is suprising.' Lexi says.");	
-				System.out.println("You look at her with a small grin and continue to look around. The house was tiny consisting of only 2 rooms, a main room and a bathroom on the corner.");
+				System.out.println("You look at her with a small grin and continue to look around. The house was tiny consisting of only 2 rooms, a main room and a bathroom in the corner.");
 				System.out.println("As dirty as it was you could tell someone had been here recently. There was a candle still burning in the middle of the dinning table. ");
 				System.out.println("Lexi opens the fridge and pulls out two apple and a bottle of water. She throws you one and opens the water. You guys share your meal as you continue to look around.");	
 				System.out.println("As you get to a desk you look up at the wall and see many newspapers and hand written notes. You call lexi over so she can read them too.");	
@@ -159,13 +159,90 @@ public class Girl {
 				System.out.println("Both of you stand there reading about the people that have disapeared in these woods and the others who have went crazy. Then you here something move outside.  ");
 				System.out.println("What do you do: 1 to hide or 2 to go outside. ");
 				choice = input.nextInt();
+				if(choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You both run into the bathroom and shut the door a little. A man comes inside and sits in the livingroom chair. He puts a camera down on the table next to him");
+					System.out.println(" He looks about 50 years old and has long gray hair. You watch him closely as he puts the camera on the side table, and drift asleep.");	
+				}
+				if(choice == 2)
+				{
+					System.out.println("				");	
+					System.out.println("You both run outside thru a back window and croutch behind a tree. You watch as an older man in his fifties, with long gray hair, hangs dead squrrels on a line.");
+					System.out.println("He has a big camera hanging around his neck. You see him digging in a bucket on the side of the house. You take a step forward to get a closer look and step on a stick. ");
+					System.out.println("Lexi quickly pulls you back. When You peek back around the corner the man is gone. You both sit silently looking for the man. Then you her a bang and see lexi fall.");
+					System.out.println(" You turn around to see the man holding a big stick. He hits you in the head and you are knocked out. ");
+					System.out.println("				");	
+					System.out.println("				");	
+					System.out.println(" You Wake up laying on a coutch. Your back in the cabin. You slowly begin to get up. You realize lexi is laying on the other side of the coutch. ");
+					System.out.println("You quickly shake her awake and tell her to be quiet. She nods and you nod back. She taps your arm and points behind to the right of you.  ");
+					System.out.println("When you turn your head you see the man, asleep in a chair.");
+					
+				}
+				System.out.println("What do you do: 1 to wake him up to talk, 2 to try and take his camera, or 3 to run out the house. ");
+				choice = input.nextInt();
 				if (choice == 1)
 				{
-					
+					System.out.println("	");	
+					System.out.println(" You both slowly get up and stand over him. You silently fight over who has to wake him up. You take a deep brerath and begin to lightly shake him.");
+					System.out.println(" He groans and moves. He settles in and goes back into his deep sleep. You shake him once more a little harder. His eyes fly open and he jumps up.");
+					System.out.println("You and lexi scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile.'My names Paul.'");
 				}
 				if (choice == 2)
 				{
-					
+					System.out.println("	");	
+					System.out.println(" You both slowly get up and stand over him. You silently fight over who has to grab the camera. You take a deep brerath and begin to pick it up");
+					System.out.println(" He groans and moves. He settles in and goes back into his deep sleep. You go to pick up the camera again. You raise the camera in your arms and begin to sigh in relif. ");
+					System.out.println("His eyes fly open and he jumps up. You and lexi scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile.'My names Paul.'");
+				}
+				if (choice == 3)
+				{
+					System.out.println("	");	
+					System.out.println(" You both slowly get up and begin walking toward the door. You take a deep brerath and begin open the door. He groans and moves.");
+					System.out.println(" He settles in and goes back into his deep sleep. You go to open the door again. You open the door just a crack and hear the loud creack noise. ");
+					System.out.println("His eyes fly open and he jumps up. You and lexi scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile. 'My names Paul.'");
+				}
+				System.out.println("	");	
+				System.out.println("* One Hour Later *");	
+				System.out.println("You all sit in the living room of the small house talking about the man with no face. Paul had turned on the radio he had. For the first time in what felt like forever you felt safe.");
+				System.out.println("Paul told you about the articles on the wall. He was in the woods looking for evidence about the man with no face. ' people call him Slenderman' Paul had said. ");
+				System.out.println("Pauls whole goal was to get a picture of Slenderman, and figure out what he did to the other people in the forrest. Most people said that they woke up in the forrest. ");
+				System.out.println("Paul wanted to how they got here. The few people that got out of the forrest said they still saw him. It was like he was haunting them. All of a sudden the music began to mess up.");
+				System.out.println("The radio started making a loud fuzzy sound. 'He's here!' paul said jumping out of his chair and grabbing is camera. You and lexi both went to say something when he shushed you.");
+				System.out.println(" Paul quickly ran outside leaving the door open behind him. You and lexi both quickly ran and stood in the doorway. You watched as paul stood in front of the house with his camera ready.");
+				System.out.println("'Come Out! show Yourself!' He yelled. On que Slenderman stepped out of the woods. Paul pressed the button on his camera and the flash went off. At that moment Slenderman attacked Paul.");
+				System.out.println("What do you do: 1 to Save Paul or 2 to Let him die");	
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You look at lexi, her face full of sorrow and almost in tears. 'We can't just let him die!' You say to lexi. You don't wait for a responce before you run out to Paul.");
+					System.out.println("You jumped on slenderman. You could see lexi right next to you. Paul laying on the ground dead. You were too late, but that didnt stop you from wanting slenderman dead.");
+					System.out.println("He was too powerful for you. As you get thrown back you see Slenderman kill lexi. Then He faces you.");	
+	;
+					endScreen.End();
+				}
+				if (choice == 2)
+				{
+					System.out.println("						");	
+					System.out.println("You quickly run grab lexis arm and take off running. You run as fast as you can. The screams of paul are getting quieter and quieter. You come to a road. A car is coming down it.");	
+					System.out.println("what do you do: 1 to jump infront or 2 to put thumb out.");	
+					choice = input.nextInt();
+					if(choice == 1)
+					{
+						System.out.println("						");	
+						System.out.println("They Hit you both. You're dead");	
+						endScreen.End();
+					}
+					if(choice == 2)
+					{
+						System.out.println("						");	
+						System.out.println("They didn't see you. Slenderman comes out of the woods behind you. You take a deep breath and you feel a tear trickle down your face.");	
+						endScreen.End();
+					}
 				}
 			}
 			if (choice == 2)
@@ -190,21 +267,232 @@ public class Girl {
 				System.out.println(" You get to a door on the side of the house. You knock. Nobody answered. You knock again, this time a little louder.");	
 				System.out.println(" Again nobody answers. You grab the door knob and slowly turn it. Your face lit up with excitment as it opens.");	
 				System.out.println("You walk into a dusty, unclean house. You pull a string on a lamp and it lights up the room. 'A place like this having power is suprising.' You think to yourself.");	
-				System.out.println("You look at around with a small grin and continue to investigate. The house was tiny consisting of only 2 rooms, a main room and a bathroom on the corner.");
+				System.out.println("You look around with a small grin and continue to investigate. The house was tiny consisting of only 2 rooms, a main room and a bathroom in the corner.");
 				System.out.println("As dirty as it was you could tell someone had been here recently. There was a candle still burning in the middle of the dinning table. ");
-				System.out.println("Lexi opens the fridge and pulls out two apple and a bottle of water. She throws you one and opens the water. You guys share your meal as you continue to look around.");	
-				System.out.println("As you get to a desk you look up at the wall and see many newspapers and hand written notes. You call lexi over so she can read them too.");	
-				System.out.println("'they're about the man in the woods' says Lexi. She was right. It was all about how people had seen him and about people who had went missing. ");	
-				System.out.println("Both of you stand there reading about the people that have disapeared in these woods and the others who have went crazy. Then you here something move outside.  ");
+				System.out.println("You open the fridge and pull out an apple and a bottle of water. You enjoy your meal as you continue to look around.");	
+				System.out.println("As you get to a desk you look up at the wall and see many newspapers and hand written notes. ");	
+				System.out.println("'they're about the man in the woods' You think to yourself. It was all about how people had seen him and about people who had went missing. ");	
+				System.out.println("You stand there reading about the people that have disapeared in these woods and the others who have went crazy. Then you here something move outside.  ");
 				System.out.println("What do you do: 1 to hide or 2 to go outside. ");
+				choice = input.nextInt();
+				if(choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You run into the bathroom and shut the door a little. A man comes inside and sits in the livingroom chair. He puts a big camera down on the side table ");
+					System.out.println("He looks about 50 years old and has long gray hair. You watch him closely as he puts the camera on the side table, and drift asleep.");	
+				}
+				if(choice == 2)
+				{
+					System.out.println("				");	
+					System.out.println("You  run outside thru a back window and croutch behind a tree. You watch as an older man in his fifties, with long gray hair, hangs dead squrrels on a line.");
+					System.out.println("He has a big camera hung around his neck. You see him digging in a bucket on the side of the house. You take a step forward to get a closer look and step on a stick. ");
+					System.out.println("You quickly jump back. When You peek back around the corner the man is gone. You sit silently looking for the man. ");
+					System.out.println("Then you hear a hard thud and everything goes black. You are knocked out. ");	
+					System.out.println("				");	
+					System.out.println("				");	
+					System.out.println(" You Wake up laying on a coutch. Your back in the cabin. You slowly begin to get up. You hear something breathing to the right of you. ");
+					System.out.println("When you turn your head you see the man, asleep in a chair.");
+				}
+				System.out.println("What do you do: 1 to wake him up to talk, 2 to try and take his camera, or 3 to run out the house. ");
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					System.out.println("	");	
+					System.out.println(" You slowly get up and stand over him.  You take a deep brerath and begin to lightly shake him. He groans and moves.");
+					System.out.println(" He settles in and goes back into his deep sleep. You shake him once more a little harder. His eyes fly open and he jumps up.");
+					System.out.println("You scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile. 'My names Paul.'");
+				}
+				if (choice == 2)
+				{
+					System.out.println("	");	
+					System.out.println(" You slowly get up and stand over him.  You take a deep brerath and begin to pick it up");
+					System.out.println(" He groans and moves. He settles in and goes back into his deep sleep. You go to pick up the camera again. You raise the camera in your arms and begin to sigh in relif. ");
+					System.out.println("His eyes fly open and he jumps up. You  scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile. 'My names Paul.'");
+				}
+				if (choice == 3)
+				{
+					System.out.println("	");	
+					System.out.println(" You slowly get up and begin walking toward the door. You take a deep brerath and begin open the door. He groans and moves.");
+					System.out.println(" He settles in and goes back into his deep sleep. You go to open the door again. You open the door just a crack and hear the loud creack noise. ");
+					System.out.println("His eyes fly open and he jumps up. You scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile.'My names Paul.'");
+				}
+				System.out.println("	");	
+				System.out.println("* One Hour Later *");	
+				System.out.println("You and Paul sit in the living room of the small house talking about the man with no face. Paul had turned on the radio he had. For the first time in what felt like forever you felt safe.");
+				System.out.println("Paul told you about the articles on the wall. He was in the woods looking for evidence about the man with no face. ' people call him Slenderman' Paul had said. ");
+				System.out.println("Pauls whole goal was to get a picture of Slenderman, and figure out what he did to the other people in the forrest. Most people said that they woke up in the forrest. ");
+				System.out.println("Paul wanted to how they got here. The few people that got out of the forrest said they still saw him. It was like he was haunting them. All of a sudden the music began to mess up.");
+				System.out.println("The radio started making a loud fuzzy sound. 'He's here!' paul said jumping out of his chair and grabbing is camera. You went to say something when he shushed you.");
+				System.out.println(" Paul quickly ran outside leaving the door open behind him. You  quickly ran and stood in the doorway. You watched as paul stood in front of the house with his camera ready.");
+				System.out.println("'Come Out! show Yourself!' He yelled. On que Slenderman stepped out of the woods. Paul pressed the button on his camera and the flash went off. At that moment Slenderman attacked Paul.");
+				System.out.println("What do you do: 1 to Save Paul or 2 to Let him die");	
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You can feel yourself almost in tears. 'I can't just let him die!' You think. You don't wait another second before you run out to Paul.");
+					System.out.println("You jumped on slenderman.  Paul laying on the ground dead. You were too late, but that didnt stop you from wanting slenderman dead.");
+					System.out.println("He was too powerful for you. He throws you back. Then He faces you.");	
+					endScreen.End();
+				}
+				if (choice == 2)
+				{
+					System.out.println("						");	
+					System.out.println("You quickly take off running. You run as fast as you can. The screams of paul are getting quieter and quieter. You come to a road. A car is coming down it.");	
+					System.out.println("what do you do: 1 to jump infront or 2 to put thumb out.");	
+					choice = input.nextInt();
+					if(choice == 1)
+					{
+						System.out.println("						");	
+						System.out.println("They Hit you. You're dead");	
+						endScreen.End();
+					}
+					if(choice == 2)
+					{
+						System.out.println("						");	
+						System.out.println("They didn't see you. Slenderman comes out of the woods behind you. You take a deep breath and you feel a tear trickle down your face.");	
+						endScreen.End();
+					}
+				}
 			}
 			if (choice == 3)
 			{
 				System.out.println("						");	
+				System.out.println("You stand there for a moment. You here the girl groan and she starts to move. You take a rock and smash it over her head.");
+				System.out.println("You see her chest stop moving. You take a minute to make sure she is dead. Then you quickly take off int he other direction.");	
+				System.out.println("You run for what feels like forever but probably was only like 15 min. You finaly stop when you some to a small hosue. ");
+				System.out.println("What do you do: 1 to go in or 2 to leave");	
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You took a deep breath with worry . You then continued to walk to the house.");
+				}
+				if (choice == 2)
+				{
+					System.out.println("						");	
+					System.out.println("You turned around to leave until you heard something in the woods. You got scared and quickly turned around ,and headed for the house.");	
+					
+				}
+				System.out.println("						");	
+				System.out.println(" You get to a door on the side of the house. You knock. Nobody answered. You knock again, this time a little louder.");	
+				System.out.println(" Again nobody answers. You grab the door knob and slowly turn it. Your face lit up with excitment as it opens.");	
+				System.out.println("You walk into a dusty, unclean house. You pull a string on a lamp and it lights up the room. 'A place like this having power is suprising.' You think to yourself.");	
+				System.out.println("You look around with a small grin and continue to investigate. The house was tiny consisting of only 2 rooms, a main room and a bathroom in the corner.");
+				System.out.println("As dirty as it was you could tell someone had been here recently. There was a candle still burning in the middle of the dinning table. ");
+				System.out.println("You open the fridge and pull out an apple and a bottle of water. You enjoy your meal as you continue to look around.");	
+				System.out.println("As you get to a desk you look up at the wall and see many newspapers and hand written notes. ");	
+				System.out.println("'they're about the man in the woods' You think to yourself. It was all about how people had seen him and about people who had went missing. ");	
+				System.out.println("You stand there reading about the people that have disapeared in these woods and the others who have went crazy. Then you here something move outside.  ");
+				System.out.println("What do you do: 1 to hide or 2 to go outside. ");
+				choice = input.nextInt();
+				if(choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You run into the bathroom and shut the door a little. A man comes inside and sits in the livingroom chair. He puts a big camera down on the side table ");
+					System.out.println("He looks about 50 years old and has long gray hair. You watch him closely as he puts the camera on the side table, and drift asleep.");	
+				}
+				if(choice == 2)
+				{
+					System.out.println("				");	
+					System.out.println("You  run outside thru a back window and croutch behind a tree. You watch as an older man in his fifties, with long gray hair, hangs dead squrrels on a line.");
+					System.out.println("He has a big camera hanging around his neck. You see him digging in a bucket on the side of the house. You take a step forward to get a closer look and step on a stick. ");
+					System.out.println("You quickly jump back. When You peek back around the corner the man is gone. You sit silently looking for the man. ");
+					System.out.println("Then you hear a hard thud and everything goes black. You are knocked out. ");
+					System.out.println("				");	
+					System.out.println("				");	
+					System.out.println(" You Wake up laying on a coutch. Your back in the cabin. You slowly begin to get up. You hear something breathing to the right of you. ");
+					System.out.println("When you turn your head you see the man, asleep in a chair.");
+				}
+				System.out.println("What do you do: 1 to wake him up to talk, 2 to try and take his camera, or 3 to run out the house. ");
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					System.out.println("	");	
+					System.out.println(" You slowly get up and stand over him.  You take a deep brerath and begin to lightly shake him. He groans and moves.");
+					System.out.println(" He settles in and goes back into his deep sleep. You shake him once more a little harder. His eyes fly open and he jumps up.");
+					System.out.println("You scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile. 'My names Paul.'");
+				}
+				if (choice == 2)
+				{
+					System.out.println("	");	
+					System.out.println(" You slowly get up and stand over him.  You take a deep brerath and begin to pick it up");
+					System.out.println(" He groans and moves. He settles in and goes back into his deep sleep. You go to pick up the camera again. You raise the camera in your arms and begin to sigh in relif. ");
+					System.out.println("His eyes fly open and he jumps up. You  scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile.'My names Paul.'");
+				}
+				if (choice == 3)
+				{
+					System.out.println("	");	
+					System.out.println(" You slowly get up and begin walking toward the door. You take a deep brerath and begin open the door. He groans and moves.");
+					System.out.println(" He settles in and goes back into his deep sleep. You go to open the door again. You open the door just a crack and hear the loud creack noise. ");
+					System.out.println("His eyes fly open and he jumps up. You scream and run back to the couch. He stands there for a second, hovering over you and staring. He yawns and begins to giggle.");
+					System.out.println("' I'm sorry for scarring you' he said with a smile. 'My names Paul.'");
+				}
+				System.out.println("	");	
+				System.out.println("* One Hour Later *");	
+				System.out.println("You and Paul sit in the living room of the small house talking about the man with no face. Paul had turned on the radio he had. For the first time in what felt like forever you felt safe.");
+				System.out.println("Paul told you about the articles on the wall. He was in the woods looking for evidence about the man with no face. ' people call him Slenderman' Paul had said. ");
+				System.out.println("Pauls whole goal was to get a picture of Slenderman, and figure out what he did to the other people in the forrest. Most people said that they woke up in the forrest. ");
+				System.out.println("Paul wanted to how they got here. The few people that got out of the forrest said they still saw him. It was like he was haunting them. All of a sudden the music began to mess up.");
+				System.out.println("The radio started making a loud fuzzy sound. 'He's here!' paul said jumping out of his chair and grabbing is camera. You went to say something when he shushed you.");
+				System.out.println(" Paul quickly ran outside leaving the door open behind him. You  quickly ran and stood in the doorway. You watched as paul stood in front of the house with his camera ready.");
+				System.out.println("'Come Out! show Yourself!' He yelled. On que Slenderman stepped out of the woods. Paul pressed the button on his camera and the flash went off. At that moment Slenderman attacked Paul.");
+				System.out.println("What do you do: 1 to Save Paul or 2 to Let him die");	
+				choice = input.nextInt();
+				if (choice == 1)
+				{
+					System.out.println("						");	
+					System.out.println("You can feel yourself almost in tears. 'I can't just let him die!' You think. You don't wait another second before you run out to Paul.");
+					System.out.println("You jumped on slenderman.  Paul laying on the ground dead. You were too late, but that didnt stop you from wanting slenderman dead.");
+					System.out.println("He was too powerful for you. He throws you back. Then He faces you.");	
+					endScreen.End();
+				}
+				if (choice == 2)
+				{
+
+					System.out.println("						");	
+					System.out.println("You quickly take off running. You run as fast as you can. The screams of paul are getting quieter and quieter. You come to a road. A car is coming down it.");	
+					System.out.println("what do you do: 1 to jump infront or 2 to put thumb out.");	
+					choice = input.nextInt();
+					if(choice == 1)
+					{
+						System.out.println("						");	
+						System.out.println("They Hit you. You're dead");	
+						endScreen.End();
+					}
+					if(choice == 2)
+					{
+						System.out.println("						");	
+						System.out.println("They didn't see you. Slenderman comes out of the woods behind you. You take a deep breath and you feel a tear trickle down your face.");	
+						endScreen.End();
+					}
+				}
 			}
+			
 		}
 		if (choice == 2)
 		{
+			System.out.println("						");	
+			System.out.println("You quickly take off running. You run as fast as you can. The screams are getting quieter and quieter. You come to a road. A car is coming down it.");	
+			System.out.println("what do you do: 1 to jump infront or 2 to put thumb out.");	
+			choice = input.nextInt();
+			if(choice == 1)
+			{
+				System.out.println("						");	
+				System.out.println("They Hit you. You're dead");	
+				endScreen.End();
+			}
+			if(choice == 2)
+			{
+				System.out.println("						");	
+				System.out.println("They didn't see you. The man with no face comes out of the woods behind you. You take a deep breath and you feel a tear trickle down your face.");	
+				endScreen.End();
+			}
 		}
 	}
 	
