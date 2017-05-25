@@ -73,7 +73,7 @@ public class Shelter {
 			{
 				System.out.println("You have starved to death. Good luck next time.");
 				GameOver.displayOver();
-				MainClass.main(null);
+			
 				
 			} 
 			System.out.println("'Try again? Quit 999'");
@@ -100,7 +100,7 @@ public class Shelter {
 				{
 					System.out.println("You have starved to death. Good luck next time.");
 					GameOver.displayOver();
-					MainClass.main(null);
+					
 					
 				} 
 				System.out.println("'Try again? Quit 999'");
