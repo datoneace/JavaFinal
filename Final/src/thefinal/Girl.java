@@ -150,8 +150,6 @@ public class Girl {
 			}while(tryAgain == 999);
 		    SlenderManAppears.choice();
 		}
-			// TODO Auto-generated method stub
 			
 		
 }
-

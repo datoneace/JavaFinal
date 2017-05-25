@@ -8,7 +8,7 @@ public class Shelter {
 	static void stayInShelter(){
 	
 		String choiceYes = null;
-		int leave = 0;
+		String choiceNo = null;
 		String quit = null;
 		
 		input = new Scanner(System.in);
@@ -18,18 +18,31 @@ public class Shelter {
 		if("Yes".equals(choiceYes))
 		{
 			System.out.println("'You begin to play Farkle by yourself'");
-		}    
-	           int rollCount = 0;
+		     
+			int rollCount = 0;
 	           do{ 
 	              DiceGame.roll(); 
 	               rollCount++;
 	               System.out.println("To quit type No otherwise type Yes to play again.");
 	               quit = input.nextLine();
 	           }while ("Yes".equals(quit) ||"yes".equals(quit));
-	          
+		
 	        System.out.println("'After " + rollCount +" rolls you finally are bored and want to move on.'");
 	        System.out.println("'I should go outside'");
-	        Boy.leaveShelter();
+	       
 		}
+		else
+			if("No".equals(choiceNo))
+				choiceNo = input.nextLine();
+				System.out.println("'I should go outside'");
+				Boy.leaveShelter();
+				if("No".equals(choiceNo))
+				choiceNo = input.nextLine();
+				System.out.println("'I should go outside'");
+				Girl.leaveShelter();
+			
+}}
 	
-		}		
+			
+
+	

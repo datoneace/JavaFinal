@@ -7,7 +7,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		int choice;
+		int choice = 0;
 		
 		System.out.println("'THIS IS THE BEST GAME EVER. JUST KIDDING'");
 		
@@ -22,9 +22,10 @@ public class MainClass {
 		{
 			Girl.girl();
 		}
-		
-		{
-		
+			
+	
 	}
+	
+}
 
-}}
+
