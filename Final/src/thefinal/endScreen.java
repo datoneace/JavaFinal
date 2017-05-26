@@ -4,10 +4,13 @@ import java.util.Scanner;
 
 public class endScreen {
 
-	public static void End() {
+	public static void DisplayEnd(String[] args)  {
 		// TODO Auto-generated method stub
 		// Default screen after game is finished 
-		Scanner input = new Scanner(System.in); 
+		endScreen.End();
+	}
+	public static void End(){
+Scanner input = new Scanner(System.in); 
 		
 		int choice;
 		
@@ -43,6 +46,7 @@ public class endScreen {
 		}
 		
 	}
+	
 
 
 		// TODO Auto-generated method stub
@@ -53,7 +57,7 @@ public class endScreen {
 		int choice;
 		
 		System.out.println("**************************************");	
-		System.out.println("*             You Died               *");
+		System.out.println("*           You Survived             *");
 		System.out.println("*            GAME OVER               *");	
 		System.out.println("*                                    *");
 		System.out.println("*            What Now?               *");
