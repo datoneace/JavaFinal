@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class MainClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+  {
 		// TODO Auto-generated method stub
 		// Beginning screen that chooses the story you do
 		
@@ -12,8 +13,9 @@ public class MainClass {
 	}
 	public static void displayMain(){
 		Scanner input = new Scanner(System.in);
+		int choice = 0;
 		
-		int choice;
+		System.out.println("'THIS IS THE BEST GAME EVER. JUST KIDDING'");
 		
 		System.out.println("Are you a boy(1) or a girl(2)>>> ");
 		choice = input.nextInt();
@@ -26,7 +28,14 @@ public class MainClass {
 		{
 			Girl.girl();
 		}
-		
+
+			
+	
 	}
 	
 }
+
+
+
+		
+
