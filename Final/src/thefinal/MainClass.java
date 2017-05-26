@@ -4,8 +4,14 @@ import java.util.Scanner;
 
 public class MainClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+  {
 		// TODO Auto-generated method stub
+		// Beginning screen that chooses the story you do
+		
+		displayMain();
+	}
+	public static void displayMain(){
 		Scanner input = new Scanner(System.in);
 		int choice = 0;
 		
@@ -22,10 +28,14 @@ public class MainClass {
 		{
 			Girl.girl();
 		}
+
 			
 	
 	}
 	
 }
 
+
+
+		
 

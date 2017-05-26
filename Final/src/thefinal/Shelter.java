@@ -37,9 +37,55 @@ public class Shelter {
 				System.out.println("'I should go outside'");
 				Boy.leaveShelter();
 				
-			
+		
 }}
 	
 			
+
+			missedCount++;
+			System.out.println("You have missed the rabbit " + missedCount + " times if you get to 5 you die of starvation.");
+			if(missedCount == 5)
+			{
+				System.out.println("You have starved to death. Good luck next time.");
+				GameOver.displayOver();
+			
+				
+			} 
+			System.out.println("'Try again? Quit 999'");
+			tryAgain = input.nextInt();
+			}while(tryAgain != 999);
+			SlenderManAppears.choice();
+		}
+		if(choice2 == 2)
+		{
+			System.out.println("'You go out to get sticks for the fire. Pick a number between 1 and 12 to see if you have a flame.'");
+			do{
+				System.out.println("Pick a number between 1 and 12 to see if you hit.");
+				hunt = input.nextInt();
+				if(hunt == total)
+				{
+					System.out.println("'You set up the trap and wait, then you see one. You got a rabbit! MMMMmhhh'");
+					missedCount = 0;
+					
+				}
+				
+				missedCount++;
+				System.out.println("You have missed the rabbit " + missedCount + " times if you get to 5 you die of starvation.");
+				if(missedCount == 5)
+				{
+					System.out.println("You have starved to death. Good luck next time.");
+					GameOver.displayOver();
+					
+					
+				} 
+				System.out.println("'Try again? Quit 999'");
+				tryAgain = input.nextInt();
+				}while(tryAgain != 999);
+			System.out.println("' x '");
+			System.out.println("'xxx'");
+			System.out.println("Nice fire dude!");
+			//create a random number generator to see if you can create a fire.
+			SlenderManAppears.choice();
+		}
 
 	

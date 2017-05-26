@@ -9,7 +9,7 @@ public class GameOver {
 		System.out.println(" Game Over");
 		System.out.println("****************************************************");
 		
-		
+		MainClass.displayMain();
 	
 	}
 	
