@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Boy {
 		private static Scanner input;
 		// TODO Auto-generated method stub
+		// Slenderman story 
 		public static void boy() 
 		{
 				int choice;
