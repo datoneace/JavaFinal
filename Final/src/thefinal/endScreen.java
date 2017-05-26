@@ -10,7 +10,9 @@ public class endScreen {
 		endScreen.End();
 	}
 	public static void End(){
-Scanner input = new Scanner(System.in); 
+		// game over screen when you died in the end 
+		
+		Scanner input = new Scanner(System.in); 
 		
 		int choice;
 		
@@ -51,7 +53,9 @@ Scanner input = new Scanner(System.in);
 
 		// TODO Auto-generated method stub
 		public static void End2() {
+		// game over screen when you survived in the end
 		// TODO Auto-generated method stub
+			
 		Scanner input = new Scanner(System.in); 
 		
 		int choice;
